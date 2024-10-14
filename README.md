@@ -1,10 +1,13 @@
 # Requisitos Previos #
 Antes de ejecutar el script, asegúrate de tener lo siguiente:
 
-Python 3.x instalado en tu sistema.
-Las siguientes bibliotecas de Python:
-netmiko
-PyYAML
+Python 3.x instalado en tu sistema.    
+
+Las siguientes bibliotecas de Python:   
+
+netmiko   
+PyYAML   
+
 Acceso de red a los switches Cisco que deseas auditar.
 Credenciales válidas (usuario y contraseña) para conectarte a los dispositivos vía SSH.
 
