@@ -1,0 +1,8 @@
+Reporte de Auditoría de Red
+===========================
+
+Dispositivos que cumplen con los parámetros de seguridad:
+
+Dispositivos que requirieron una actualización de configuración:
+
+Detalles de los cambios realizados:

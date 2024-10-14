@@ -1,0 +1,30 @@
+2024-10-12 14:03:31,751:ERROR:Error al conectar con 192.168.1.1: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.1.1:22
+
+
+2024-10-12 14:03:41,753:ERROR:Error al conectar con 192.168.1.2: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.1.2:22
+
+
+2024-10-12 14:03:51,753:ERROR:Error al conectar con 192.168.1.3: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 192.168.1.3:22
+
+
