@@ -100,8 +100,7 @@ Pasos para Agregar Nuevos Parámetros:
 #2 - Localizar la función audit_configuration:
 
 def audit_configuration(hostname, config):  
-    violations = []  
-    # Parámetros de auditoría existentes...    
+    violations = []    
     return violations  
     
 #3- Añadir nuevas verificaciones:
