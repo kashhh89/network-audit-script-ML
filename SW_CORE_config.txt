@@ -22,7 +22,6 @@ enable secret 5 $1$somehash$e3cF7EZIUvhXrxFlZmSwv1
 !
 !
 ip domain-name example.com
-crypto key generate rsa modulus 1024
 !
 no aaa new-model
 !
