@@ -8,7 +8,7 @@ Current configuration : 1658 bytes
 version 15.1
 service timestamps debug datetime msec
 service timestamps log datetime msec
-no service password-encryption
+service password-encryption
 service compress-config
 !
 hostname SW_CORE
@@ -16,17 +16,16 @@ hostname SW_CORE
 boot-start-marker
 boot-end-marker
 !
-service password-encryption
+
 !
 enable secret 5 $1$somehash$e3cF7EZIUvhXrxFlZmSwv1 
 !
-!
-ip domain-name example.com
-!
+username admin privilege 15 password 7 03055F060F01
 no aaa new-model
 !
-ip cef
 !
+ip domain-name example.com
+ip cef
 no ipv6 cef
 ipv6 multicast rpf use-bgp
 !
@@ -66,8 +65,6 @@ no ip http server
 !
 !
 !
-ntp server 192.168.1.1
-ntp authenticate
 !
 !
 control-plane
@@ -79,5 +76,8 @@ line aux 0
 line vty 0 4
  login local
  transport input telnet
+!
+ntp server 192.168.1.1
+ntp authenticate
 !
 end

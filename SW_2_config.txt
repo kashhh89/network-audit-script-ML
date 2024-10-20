@@ -8,7 +8,7 @@ Current configuration : 1962 bytes
 version 15.1
 service timestamps debug datetime msec
 service timestamps log datetime msec
-no service password-encryption
+service password-encryption
 service compress-config
 !
 hostname SW_2
@@ -16,19 +16,20 @@ hostname SW_2
 boot-start-marker
 boot-end-marker
 !
-service password-encryption
 !
 enable secret 5 $1$somehash$e3cF7EZIUvhXrxFlZmSwv1 
 !
-!
-ip domain-name example.com
-crypto key generate rsa modulus 1024
-ip ssh version 2
-!
+username admin privilege 15 password 7 03055F060F01
 no aaa new-model
 !
-ip cef
 !
+!
+crypto key generate rsa modulus 1024
+!
+!
+!
+ip domain-name example.com
+ip cef
 no ipv6 cef
 ipv6 multicast rpf use-bgp
 !
@@ -70,15 +71,15 @@ interface Vlan10
 !
 !
 !
-access-list 10 permit 192.168.10.0 0.0.0.255
 !
 !
 no ip http server
 !
+ip ssh version 2
+!
+access-list 10 permit 192.168.10.0 0.0.0.255
 !
 !
-ntp server 192.168.1.1
-ntp authenticate
 !
 !
 control-plane
@@ -91,5 +92,8 @@ line vty 0 4
  login local
  transport input ssh
  access-class 10 in
+!
+ntp server 192.168.1.1
+ntp authenticate
 !
 end
