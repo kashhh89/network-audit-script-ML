@@ -7,13 +7,13 @@ Common causes of this problem are:
 
 Device settings: cisco_ios 192.168.1.1:22
 
-2024-10-19 13:30:00:INFO:Conectando al dispositivo SW_2
-2024-10-19 13:30:05:INFO:Se conectó exitosamente a SW_2
-2024-10-19 13:30:06:INFO:Violaciones en SW_2: Telnet está habilitado.
-2024-10-19 13:30:10:INFO:Aplicando configuración en SW_2 para deshabilitar Telnet y habilitar SSH.
-2024-10-19 13:30:15:INFO:Se aplicaron configuraciones en SW_2 para deshabilitar Telnet y habilitar SSH.
+2024-10-19 13:30:00:INFO:Conectando al dispositivo SW_CORE
+2024-10-19 13:30:05:INFO:Se conectó exitosamente a SW_CORE
+2024-10-19 13:30:06:INFO:Violaciones en SW_CORE: Telnet está habilitado.
+2024-10-19 13:30:10:INFO:Aplicando configuración en SW_CORE para deshabilitar Telnet y habilitar SSH.
+2024-10-19 13:30:15:INFO:Se aplicaron configuraciones en SW_CORE para deshabilitar Telnet y habilitar SSH.
 
 
-2024-10-19 13:00:20:INFO:Conectando al dispositivo SW_CORE
-2024-10-19 13:00:25:INFO:Se conectó exitosamente a SW_CORE
-2024-10-19 13:00:26:INFO:No se encontraron violaciones de seguridad en SW_CORE
+2024-10-19 13:00:20:INFO:Conectando al dispositivo SW_2
+2024-10-19 13:00:25:INFO:Se conectó exitosamente a SW_2
+2024-10-19 13:00:26:INFO:No se encontraron violaciones de seguridad en SW_2
