@@ -2,7 +2,11 @@ Reporte de Auditoría de Red
 ===========================
 
 Dispositivos que cumplen con los parámetros de seguridad:
+- SW_CORE
 
 Dispositivos que requirieron una actualización de configuración:
+- SW_2
 
 Detalles de los cambios realizados:
+- SW_2: Deshabilitado Telnet y habilitado SSH.
+
